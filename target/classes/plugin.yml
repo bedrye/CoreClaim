@@ -1,0 +1,48 @@
+name: CoreClaim
+version: '0.74'
+main: me.bedrye.coreclaim.CoreClaim
+api-version: '1.20'
+folia-supported: true
+commands:
+  cc:
+    description: Main CoreClaim command
+    usage: /<command>
+
+permissions:
+  coreclaim.*:
+    description: Gives access to all commands
+    default: op
+    children:
+      coreclaim.admin.*: true
+      coreclaim.player.*: true
+  coreclaim.admin.*:
+    description: Gives access to all admin commands
+    children:
+      coreclaim.admin.reload: true
+      coreclaim.admin.give: true
+  coreclaim.player.*:
+    description: Gives access to all player commands
+    children:
+      coreclaim.player.addassociate: true
+      coreclaim.player.removeassociate: true
+      coreclaim.player.changeowner: true
+      coreclaim.player.list: true
+      coreclaim.player.openmainmenu: true
+      coreclaim.player.info: true
+  coreclaim.player.addassociate:
+    description: Gives access to cc add PLAYER
+  coreclaim.player.removeassociate:
+    description: Gives access to cc remove PLAYER
+  coreclaim.player.openmainmenu:
+    description: Gives access to main menu
+  coreclaim.player.list:
+    description: Gives access to cc list
+  coreclaim.player.info:
+    description: Gives access to cc info
+  coreclaim.player.changeowner:
+    description: Gives access to cc changeown PLAYER
+
+  coreclaim.admin.reload:
+    description: Gives access to cc reload
+  coreclaim.admin.give:
+    description: Gives access to cc give

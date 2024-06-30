@@ -1,0 +1,10 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(™ÖÔûÿÿÿÿ
+M
+java:S1874!"7Remove this use of "createInventory"; it is deprecated.(«Ñ˜›
+P
+java:S1128":Remove this unused import 'me.bedrye.coreclaim.CoreClaim'.(ÖÅ÷×
+K
+java:S1128"0Remove this unused import 'org.bukkit.Material'.(ÜÎ¬©ùÿÿÿÿ
+Y
+java:S1128"CRemove this unused import 'org.bukkit.metadata.FixedMetadataValue'.(šö–ä

@@ -1,0 +1,8 @@
+
+»
+java:S6548	"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(ìÛÈ’üÿÿÿÿ8òªÜÿ‚2
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç×ñÓ8öªÜÿ‚2
+K
+java:S1128".Remove this unused import 'org.bukkit.Bukkit'.(Ø­æ8úªÜÿ‚2
+c
+java:S1128"ARemove this unused import 'org.bukkit.scheduler.BukkitScheduler'.(¥¤Ñ¤ûÿÿÿÿ8úªÜÿ‚2

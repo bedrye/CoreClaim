@@ -1,0 +1,30 @@
+area-size: 16
+block-material: OAK_LOG
+block-name: "§2§lCLAIM BLOCK"
+not-enough-perms: "Insufficient permissions"
+cannot-use-claim: "You are not allowed to manage this claim"
+new-claim: "Claim has been created"
+delete-claim: "Claim has been removed"
+remove-associate: "Associate has been removed"
+reload-info: "Reloading..."
+too-close: "Too close to another claim"
+change-owner: "The owner has been changed"
+new-owner: "You have received a new claim"
+add-associate: "Associate has been added"
+new-associate: "You have been added to claim"
+invalid-player: "player"
+give-info: "You have received a claim block"
+associates-info: "Associates: "
+associates-count-info: "Number of associates: "
+location-info: "Coordinates: "
+owner-info: "Owner: "
+menu-info-button: "§6§lGeneral information"
+menu-list-button: "§2§lAssociates"
+help-info:  "/cc reload - reloads the plugin\n
+  /cc give - gives the player a claim block\n
+  /cc add PLAYER - adds the player to your claim\n
+  /cc remove PLAYER -removes the player from your claim\n
+  /cc info - shows info of the claim\n
+  /cc list - lists all of associates of the claim"
+cooldown-message: "Wait for a bit.."
+menu-owner: "Claim of "

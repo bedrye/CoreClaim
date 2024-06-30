@@ -1,0 +1,8 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ØÀ¿üÿÿÿÿ8Ãûø€ƒ2
+S
+java:S1874"6Remove this use of "setDisplayName"; it is deprecated.(€©•Æ8àûø€ƒ2
+S
+java:S1874("6Remove this use of "setDisplayName"; it is deprecated.(ÿ—Âå8áûø€ƒ2
+K
+java:S1128".Remove this unused import 'org.bukkit.Bukkit'.(Ø­æ8ãûø€ƒ2
